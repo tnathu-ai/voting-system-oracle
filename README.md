@@ -1,3 +1,3 @@
 # voting-system-oracle
 
-![Uploading Initial DDL code.svg…]()
+![Initial DDL code.svg…]()
