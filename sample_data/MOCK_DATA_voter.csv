@@ -1,4 +1,4 @@
-voterid,firstname,lastname,gender,dateofbirth,residentialaddrstate,mobilephone,email,residentialaddrsuburb
+voterid,firstname,lastname,gender,dateofbirth,residentialaddrstate,mobilephone,email,residentialaddrelectorate
 1,Marshall,Avent,Male,5-Oct-22,SA,3279109287,mavent0@japanpost.jp,Adelaide
 2,Klement,Aggott,Male,8-Feb-23,VIC,7635058809,kaggott1@discuz.net,Aston
 3,Neila,Bryceson,Female,8-Dec-22,VIC,1818846272,nbryceson2@paginegialle.it,Ballarat
