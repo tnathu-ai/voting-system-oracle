@@ -8,7 +8,7 @@ The AEC is dedicated to offering Australians an independent electoral service. W
 + Design: Entity-Relationship Diagram (ERD) for logical and relational design
 + Code Generation: DDL code generated from the finalized ERD
 
-![https://carbon.now.sh/E4JQd3NGrAmSjRHAf8kW]()
+![Inital DDL code](https://carbon.now.sh/E4JQd3NGrAmSjRHAf8kW)
 
 ## Project Scope
 This project's initial phase focuses on federal general elections for the House of Representatives. The following are out of scope:
