@@ -1,0 +1,876 @@
+<TABLE class="TreeTableWidget" border=0 cellpadding=0 cellspacing=0 width=100% bgcolor=#efefef><tr><td> 
+
+ <!-- ..........................data begin...........................  -->
+
+    <TABLE class=TreeTableWidget border=0 cellspacing=0 cellpadding=1 align=center width=100%"  bgcolor=#ffffff> 
+    <tr class="TableCell">
+
+       <td valign=top bgcolor=#bbbbbb>&nbsp;<font color=#444477>OPERATION</font>&nbsp;</td>
+
+       <td valign=top bgcolor=#aaaaaa>&nbsp;<font color=#444477>OBJECT_NAME</font>&nbsp;</td>
+
+       <td valign=top bgcolor=#bbbbbb>&nbsp;<font color=#444477>OPTIONS</font>&nbsp;</td>
+
+       <td valign=top bgcolor=#aaaaaa>&nbsp;<font color=#444477>CARDINALITY</font>&nbsp;</td>
+
+       <td valign=top bgcolor=#bbbbbb>&nbsp;<font color=#444477>COST</font>&nbsp;</td>
+
+    </tr>
+
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff ><font size=-1><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/gray.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%>&nbsp;SELECT STATEMENT&nbsp;</td></tr></table></font></td>
+      <td width=11% valign=top bgcolor=#dfdfdf >&nbsp;&nbsp&nbsp;</td>
+      <td width=11% valign=top bgcolor=#dfd5d1 >&nbsp;&nbsp&nbsp;</td>
+      <td width=11% valign=top bgcolor=#dfdfdf >&nbsp;4574&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#dfd5d1 >&nbsp;16&nbsp;</font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff ><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/sortascending_ena.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%>&nbsp;SORT&nbsp;</td></tr></table></font></td>
+      <td width=11% valign=top bgcolor=#ffffdf >&nbsp;&nbsp&nbsp;</td>
+      <td width=11% valign=top bgcolor=#ffffd2 >&nbsp;ORDER BY&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffdf >&nbsp;4574&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffd2 >&nbsp;16&nbsp;</font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff ><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/join.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%>&nbsp;HASH JOIN&nbsp;</td></tr></table></font></td>
+      <td width=11% valign=top bgcolor=#dfdfdf >&nbsp;&nbsp&nbsp;</td>
+      <td width=11% valign=top bgcolor=#dfd5d1 >&nbsp;&nbsp&nbsp;</td>
+      <td width=11% valign=top bgcolor=#dfdfdf >&nbsp;4574&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#dfd5d1 >&nbsp;15&nbsp;</font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/sigmakeys.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(0,0,170)>&nbsp;Access Predicates&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/and.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(0,0,204)>&nbsp;AND&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(0,0,238)>&nbsp;B.ELECTIONEVENT_ELECTIONEVENTID=EE.ELECTIONEVENTID&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(0,0,238)>&nbsp;BP.BALLOT_BALLOTID=B.BALLOTID&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff ><font size=-1><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/table.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%>&nbsp;TABLE ACCESS&nbsp;</td></tr></table></font></td>
+      <td width=11% valign=top bgcolor=#ffffdf >&nbsp;BALLOT&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffd2 >&nbsp;FULL&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffdf >&nbsp;1000&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffd2 >&nbsp;3&nbsp;</font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/sigmafilter.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(0,0,170)>&nbsp;Filter Predicates&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(0,0,238)>&nbsp;B.ELECTIONEVENT_ELECTIONEVENTID=20220521&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff ><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/join.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%>&nbsp;HASH JOIN&nbsp;</td></tr></table></font></td>
+      <td width=11% valign=top bgcolor=#dfdfdf >&nbsp;&nbsp&nbsp;</td>
+      <td width=11% valign=top bgcolor=#dfd5d1 >&nbsp;&nbsp&nbsp;</td>
+      <td width=11% valign=top bgcolor=#dfdfdf >&nbsp;4576&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#dfd5d1 >&nbsp;12&nbsp;</font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/sigmakeys.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(0,0,170)>&nbsp;Access Predicates&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(0,0,238)>&nbsp;C.CANDID=BP.CANDIDATE_CANDID&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff ><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/join.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%>&nbsp;HASH JOIN&nbsp;</td></tr></table></font></td>
+      <td width=11% valign=top bgcolor=#ffffdf >&nbsp;&nbsp&nbsp;</td>
+      <td width=11% valign=top bgcolor=#ffffd2 >&nbsp;&nbsp&nbsp;</td>
+      <td width=11% valign=top bgcolor=#ffffdf >&nbsp;6&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffd2 >&nbsp;7&nbsp;</font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/sigmakeys.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(0,0,170)>&nbsp;Access Predicates&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(0,0,238)>&nbsp;C.PARTY_PARTYCODE=P.PARTYCODE&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff ><font size=-1><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/join.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%>&nbsp;MERGE JOIN&nbsp;</td></tr></table></font></td>
+      <td width=11% valign=top bgcolor=#dfdfdf >&nbsp;&nbsp&nbsp;</td>
+      <td width=11% valign=top bgcolor=#dfd5d1 >&nbsp;CARTESIAN&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#dfdfdf >&nbsp;6&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#dfd5d1 >&nbsp;4&nbsp;</font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff ><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/index.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%>&nbsp;INDEX&nbsp;</td></tr></table></font></td>
+      <td width=11% valign=top bgcolor=#ffffdf ><font size=-1>&nbsp;ELECTIONEVENT_PK&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffd2 ><font size=-1>&nbsp;RANGE SCAN&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffdf >&nbsp;1&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffd2 >&nbsp;1&nbsp;</font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/sigmakeys.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(0,0,170)>&nbsp;Access Predicates&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(0,0,238)>&nbsp;EE.ELECTIONEVENTID=20220521&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff ><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/gray.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%>&nbsp;BUFFER&nbsp;</td></tr></table></font></td>
+      <td width=11% valign=top bgcolor=#dfdfdf >&nbsp;&nbsp&nbsp;</td>
+      <td width=11% valign=top bgcolor=#dfd5d1 >&nbsp;SORT&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#dfdfdf >&nbsp;6&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#dfd5d1 >&nbsp;3&nbsp;</font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff ><font size=-1><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/table.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%>&nbsp;TABLE ACCESS&nbsp;</td></tr></table></font></td>
+      <td width=11% valign=top bgcolor=#ffffdf >&nbsp;CANDIDATE&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffd2 >&nbsp;FULL&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffdf >&nbsp;6&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffd2 >&nbsp;3&nbsp;</font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff ><font size=-1><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/table.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%>&nbsp;TABLE ACCESS&nbsp;</td></tr></table></font></td>
+      <td width=11% valign=top bgcolor=#dfdfdf >&nbsp;PARTY&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#dfd5d1 >&nbsp;FULL&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#dfdfdf >&nbsp;221&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#dfd5d1 >&nbsp;3&nbsp;</font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff ><font size=-1><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/table.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%>&nbsp;TABLE ACCESS&nbsp;</td></tr></table></font></td>
+      <td width=11% valign=top bgcolor=#ffffdf ><font size=-1>&nbsp;BALLOTPREF&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffd2 >&nbsp;FULL&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffdf >&nbsp;4576&nbsp;</font></td>
+      <td width=11% valign=top bgcolor=#ffffd2 >&nbsp;5&nbsp;</font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(119,119,0)>&nbsp;Other XML&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{info}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;info type="has_user_tab"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;yes&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;info type="db_version"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;19.0.0.0&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;info type="parse_schema"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;"S3879312"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;info type="plan_hash_full"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;4170862818&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;info type="plan_hash"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;254338769&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;info type="plan_hash_2"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;4170862818&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;stats type="compilation"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;stat name="bg"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;3&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{q}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;q o="2"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{n}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$6&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;from$_subquery$_011&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$6&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;q o="18" h="y"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{n}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$81719215&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$5&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;VW&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$EE94F965&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{h}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;BP&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;C&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;B&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$2&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;EE&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$3&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;E&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$4&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;P&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$5&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;q o="2"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{n}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$4&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{h}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;E&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$4&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;from$_subquery$_007&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$4&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;q o="18" h="y"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{n}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$CCD74004&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$6&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;VW&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$81719215&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{h}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;BP&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;C&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;B&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$2&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;EE&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$3&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;E&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$4&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;P&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$5&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;q o="18" h="y"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{n}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$9E43CB6E&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$3&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;VW&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$58A6D7F6&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{h}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;BP&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;C&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;B&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$2&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;EE&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$3&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;q o="2"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{n}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{h}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;BP&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;C&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;q o="18" h="y"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{n}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$58A6D7F6&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$2&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;VW&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{h}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;BP&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;C&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;B&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$2&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;q o="2"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{n}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$2&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{h}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;B&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$2&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;from$_subquery$_003&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$2&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;q o="2"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{n}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$5&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{h}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;P&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$5&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;from$_subquery$_009&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$5&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;q o="2"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{n}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$3&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{h}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;EE&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$3&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;from$_subquery$_005&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$3&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;q o="18" h="y"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{n}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$EE94F965&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$4&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;VW&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$9E43CB6E&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{h}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;BP&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;C&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;B&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$2&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;EE&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$3&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;E&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$4&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,102,0)>&nbsp;q o="34" f="y" h="y"&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{n}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$F6775958&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$CCD74004&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;TA&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;E@SEL$4&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{h}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;BP&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;C&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$1&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;B&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$2&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;EE&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$3&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{t}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;P&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SEL$5&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(136,0,102)>&nbsp;{hint}&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;SWAP_JOIN_INPUTS(@"SEL$F6775958" "B"@"SEL$2")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;USE_HASH(@"SEL$F6775958" "B"@"SEL$2")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;USE_HASH(@"SEL$F6775958" "BP"@"SEL$1")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;USE_HASH(@"SEL$F6775958" "P"@"SEL$5")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;USE_MERGE_CARTESIAN(@"SEL$F6775958" "C"@"SEL$1")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;LEADING(@"SEL$F6775958" "EE"@"SEL$3" "C"@"SEL$1" "P"@"SEL$5" "BP"@"SEL$1" "B"@"SEL$2")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;FULL(@"SEL$F6775958" "B"@"SEL$2")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;FULL(@"SEL$F6775958" "BP"@"SEL$1")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;FULL(@"SEL$F6775958" "P"@"SEL$5")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;FULL(@"SEL$F6775958" "C"@"SEL$1")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/index.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;INDEX(@"SEL$F6775958" "EE"@"SEL$3" ("ELECTIONEVENT"."ELECTIONEVENTID" "ELECTIONEVENT"."ELECTION_ELECTIONCODE" "ELECTIONEVENT"."ELECTORATE_ELECTORATENAME"))&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OUTLINE(@"SEL$1")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OUTLINE(@"SEL$2")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;MERGE(@"SEL$1" >"SEL$2")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OUTLINE(@"SEL$58A6D7F6")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OUTLINE(@"SEL$3")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;MERGE(@"SEL$58A6D7F6" >"SEL$3")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OUTLINE(@"SEL$9E43CB6E")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OUTLINE(@"SEL$4")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;MERGE(@"SEL$9E43CB6E" >"SEL$4")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OUTLINE(@"SEL$EE94F965")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OUTLINE(@"SEL$5")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;MERGE(@"SEL$EE94F965" >"SEL$5")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OUTLINE(@"SEL$81719215")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OUTLINE(@"SEL$6")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;MERGE(@"SEL$81719215" >"SEL$6")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OUTLINE(@"SEL$CCD74004")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;ELIMINATE_JOIN(@"SEL$CCD74004" "E"@"SEL$4")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OUTLINE_LEAF(@"SEL$F6775958")&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;ALL_ROWS&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OPT_PARAM('optimizer_dynamic_sampling' 4)&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;DB_VERSION('19.1.0')&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;OPTIMIZER_FEATURES_ENABLE('19.1.0')&nbsp;</td></tr></table></font></td>
+   </tr>
+   <tr>
+      <td width=45% valign=top bgcolor=#ffffff colspan=5><table width=100% border=0 cellspacing=0 cellpadding=0><tr><td width=1%><table CELLSPACING=0 cellpadding=0><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><IMG SRC="images/minus.gif" wWIDTH=16 hHEIGHT=16 BORDER=0><IMG SRC="images/empty.png" wWIDTH=16 hHEIGHT=16 BORDER=0></td><tr></table></td>  <td width=99%><font color=rgb(102,136,0)>&nbsp;IGNORE_OPTIM_EMBEDDED_HINTS&nbsp;</td></tr></table></font></td>
+   </tr>
+</table>
+
+ <!-- ..........................data end...........................  -->
+
+</td></tr></TABLE> 

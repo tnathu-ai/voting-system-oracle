@@ -1,29 +1,58 @@
-/*
-Indexes that would help:
-ballotissuance on voter_voterid: Since we are looking up the voter IDs that appear in the ballotissuance table, an index on this column will speed up this selection process.
-
-ballotissuance on election_electioncode: Since we are filtering the ballotissuance entries based on specific election codes, indexing this column will facilitate faster searching.
-
-Types of Indexes:
-
-B-tree index: This is the default index type in Oracle, suitable for high-cardinality columns (like voterid) and performs well for equality and range-based searches.
-*/
+-- Retrieve names and addresses of voters who didn't vote in 2022 and 2019 general elections.
 SELECT 
-    v.firstname, 
-    v.lastname, 
-    v.residentialaddrunit,
-    v.residentialaddrstreet, 
-    v.residentialaddrsuburb, 
-    v.residentialaddrpostcode,
-    v.residentialaddrstate
+    firstname, 
+    lastname, 
+    residentialaddrstreet, 
+    residentialaddrsuburb, 
+    residentialaddrpostcode, 
+    residentialaddrstate
 FROM 
-    voter v
+    voter
 WHERE 
-    v.voterid NOT IN (
+    voterid NOT IN (
+        -- Subquery to get voter IDs who voted in specified elections.
         SELECT 
-            bi.voter_voterid 
+            voter_voterid
         FROM 
-            ballotissuance bi 
+            ballotissuance bi
+        JOIN 
+            ballot b ON bi.election_electioncode = b.electioncode
         WHERE 
-            bi.election_electioncode IN (20220521, 20190518)
-    );
+            b.electionevent_electioneventid IN (20220521, 20190518)
+    )
+ORDER BY 
+    lastname, 
+    firstname;
+    
+    
+-- Index to optimize filtering on 'ballotissuance'.
+CREATE INDEX idx_ballotissuance_voterid ON ballotissuance(voter_voterid);
+-- Index to optimize lookups on 'ballot' for given election event IDs.
+CREATE INDEX idx_ballot_electioneventid ON ballot(electionevent_electioneventid);
+
+
+-- after adding indexes
+SELECT 
+    firstname, 
+    lastname, 
+    residentialaddrstreet, 
+    residentialaddrsuburb, 
+    residentialaddrpostcode, 
+    residentialaddrstate
+FROM 
+    voter
+WHERE 
+    voterid NOT IN (
+        -- Subquery to get voter IDs who voted in specified elections.
+        SELECT 
+            voter_voterid
+        FROM 
+            ballotissuance bi
+        JOIN 
+            ballot b ON bi.election_electioncode = b.electioncode
+        WHERE 
+            b.electionevent_electioneventid IN (20220521, 20190518)
+    )
+ORDER BY 
+    lastname, 
+    firstname;
