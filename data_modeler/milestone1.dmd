@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="milestone1" id="2C74D13C-9C0A-DFAF-89D4-EEB5E2FBE0B3" version="3.5">
-<createdBy>S3879312</createdBy>
-<createdTime>2023-08-07 03:58:00 UTC</createdTime>
-<ownerDesignName>milestone1</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>2C74D13C-9C0A-DFAF-89D4-EEB5E2FBE0B3</designId>
-</OSDM_Design>
