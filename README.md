@@ -7,13 +7,10 @@ Technologies: Oracle SQL database and PHP
 
 🔗 Website link: https://titan.csit.rmit.edu.au/~s3879312/DBA/asg4/index.php
 
-🔗 GitHub link: https://github.com/tnathu-ai/voting-system-oracle
-
-This project is designed for handling the voting process. Dive into the folder structure and file descriptions to get acquainted with the project.
 
 ## 💻 Basic Screen Shots
 
-|<a href="https://titan.csit.rmit.edu.au/~s3879312/DBA/asg4/index.php"><img src="images/index.png" alt="Illustration" width="400px"/></a>|<a href="https://titan.csit.rmit.edu.au/~s3879312/DBA/asg4/ballot_paper.php"><img src="images/ballot_paper.png" alt="Illustration" width="400px"/></a>|<a href="https://titan.csit.rmit.edu.au/~s3879312/DBA/asg4/confirmation.php"><img src="images/confirmation.png" alt="Illustration" width="400px"/></a>|
+|<a href="https://titan.csit.rmit.edu.au/~s3879312/DBA/asg4/index.php"><img src="main/images/index.png" alt="Illustration" width="400px"/></a>|<a href="https://titan.csit.rmit.edu.au/~s3879312/DBA/asg4/ballot_paper.php"><img src="main/images/ballot_paper.png" alt="Illustration" width="400px"/></a>|<a href="https://titan.csit.rmit.edu.au/~s3879312/DBA/asg4/confirmation.php"><img src="main/images/confirmation.png" alt="Illustration" width="400px"/></a>|
 |:--:|:--:|:--:|
 |Home Page|Ballot Paper Page|Confirmation Page|
 
@@ -36,6 +33,11 @@ Senate federal general elections:
 ## Important Notes
 Ballot vs Issuance Record: The Ballot is the digital equivalent of the ballot paper. It captures voters' preferences but cannot be associated with any voter. The Issuance Record, on the other hand, records when and where a ballot is issued to a specific voter. It tracks who has voted but should not be used to track down the ballot issued and cast by a specific voter.
 Informal Ballots: The database should accommodate both formal and informal ballots. Informal ballots should be identified and eliminated from the counting process. A formal ballot must have a preference cast for each candidate. If there are n candidates, they must be numbered from 1 to n.
+
+**Ballot Paper Preferences** 
++ Make sure to store the preference input as is without any data cleaning (replicate paper ballot format)
++ Ensure to correctly handle the potential insertion of NULL or other unwanted values.
+
 </p>
 </details>
 
@@ -44,7 +46,27 @@ Informal Ballots: The database should accommodate both formal and informal ballo
 <summary><b>📋 Oracle SQL Database Setup Instructions</b></summary>
 <p>
 
-We've taken the liberty to pre-populate the database for you! :tada: If you face any issues like no data or data loss in the Oracle database, don't panic. Just follow these steps:
+## Oracle Credentials Setup
+
+To connect to your Oracle database, you need to modify the `db_connection.php` file with your database credentials:
+
+1. Open `db_connection.php` in your preferred code editor.
+2. Locate the following lines:
+
+   ```php
+    $username = 'REPLACE_WITH_YOUR_USERNAME';
+    $password = 'REPLACE_WITH_YOUR_PASSWORD';
+    $servername = 'REPLACE_WITH_YOUR_SERVER_NAME';
+    $servicename = 'REPLACE_WITH_YOUR_SERVICE_NAME';
+    $connection = $servername . "/" . $servicename;
+   ```
+
+3. Replace `YOUR_USERNAME_HERE`, `YOUR_PASSWORD_HERE`, `YOUR_HOST_HERE`, `YOUR_PORT_HERE`, and `YOUR_SID_HERE` with your actual Oracle database credentials.
+4. Save the changes and close the file.
+
+Ensure you keep your credentials safe and do not commit the `db_connection.php` file with actual credentials to public repositories for security reasons.
+
+**We've taken the liberty to pre-populate the database for you! :tada: If you face any issues like no data or data loss in the Oracle database, don't panic. Just follow these steps:**
 
 1. Run the script `DDL_script.ddl`
 2. Run the script `insert_as4.sql`
@@ -142,12 +164,23 @@ Use the SQL statements in `insert_as4.sql` to insert the above data. Remember to
 </details>
 
 <details>
-<summary><b>📌 ERD Design</b></summary>
+<summary><b>🖋️ ERD Design</b></summary>
 <p>
 
-|<a href="#"><img src="images/Relational.png" alt="Relational Design" width="500px"/></a>|<a href="#"><img src="images/Logical.png" alt="Logical Design" width="500px"/></a>|
+|<a href="#"><img src="main/main/images/../../images/Relational.png" alt="Relational Design" width="500px"/></a>|<a href="#"><img src="main/images/Logical.png" alt="Logical Design" width="1500px"/></a>|
 |:--:|:--:|
 |Relational Design|Logical Design|
+
+</p>
+</details>
+
+<details>
+<summary><b>🛠️ DDL Script</b></summary>
+<p>
+
+|<a href="#"><img src="main/images/Initial_DDL_code.svg" alt="DDL" width="700px"/></a>|
+|:--:|
+|DDL Script|
 
 </p>
 </details>

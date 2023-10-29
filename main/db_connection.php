@@ -2,10 +2,10 @@
 // db_connection.php
 // Establish a database connection to your Oracle database.
 
-$username = 's3879312';
-$password = 'catiscute02@';
-$servername = 'talsprddb01.int.its.rmit.edu.au';
-$servicename = 'CSAMPR1.ITS.RMIT.EDU.AU';
+$username = 'REPLACE_WITH_YOUR_USERNAME';
+$password = 'REPLACE_WITH_YOUR_PASSWORD';
+$servername = 'REPLACE_WITH_YOUR_SERVER_NAME';
+$servicename = 'REPLACE_WITH_YOUR_SERVICE_NAME';
 $connection = $servername . "/" . $servicename;
 
 try {

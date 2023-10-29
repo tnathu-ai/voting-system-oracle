@@ -1,64 +1,66 @@
 <?php
 session_start();
+// Set the election event ID
+$_SESSION['electioneventID'] = 20220521;
 include('db_connection.php');
 
 $commit_mode = OCI_DEFAULT;
 
 $electorateName = isset($_SESSION['electorateName']) ? $_SESSION['electorateName'] : null;
 
-// if (!$electorateName) {
-//     die("Electorate name is not provided.");
-// }
+if (!$electorateName) {
+    die("Electorate name is not provided.");
+}
 
-// $query = oci_parse($conn, "SELECT DISTINCT c.CANDID, c.CANDIDATENAME, p.PARTYNAME 
-//                           FROM candidate c
-//                           JOIN electionevent ee ON c.ELECTIONEVENTID = ee.ELECTIONEVENTID
-//                           LEFT JOIN party p ON c.PARTY_PARTYCODE = p.PARTYCODE
-//                           WHERE c.ELECTORATENAME = :electorateName AND ee.ELECTIONEVENTID = 20220521
-//                           ORDER BY c.CANDIDATENAME");
+$query = oci_parse($conn, "SELECT DISTINCT c.CANDID, c.CANDIDATENAME, p.PARTYNAME 
+                          FROM candidate c
+                          JOIN electionevent ee ON c.ELECTIONEVENTID = ee.ELECTIONEVENTID
+                          LEFT JOIN party p ON c.PARTY_PARTYCODE = p.PARTYCODE
+                          WHERE c.ELECTORATENAME = :electorateName AND ee.ELECTIONEVENTID = 20220521
+                          ORDER BY c.CANDIDATENAME");
 
-// oci_bind_by_name($query, ":electorateName", $electorateName);
+oci_bind_by_name($query, ":electorateName", $electorateName);
 
-// if (!oci_execute($query, $commit_mode)) {
-//     oci_rollback($conn);
-//     $e = oci_error($query);
-//     trigger_error("An error occurred while processing your request.", E_USER_ERROR);
-// }
+if (!oci_execute($query, $commit_mode)) {
+    oci_rollback($conn);
+    $e = oci_error($query);
+    trigger_error("An error occurred while processing your request.", E_USER_ERROR);
+}
 
-// $candidates = array();
-// $candidateCount = 0;
-// while ($row = oci_fetch_assoc($query)) {
-//     $candidateCount++;
-//     $candidates[] = $row;
-// }
+$candidates = array();
+$candidateCount = 0;
+while ($row = oci_fetch_assoc($query)) {
+    $candidateCount++;
+    $candidates[] = $row;
+}
 
-// if ($candidateCount > 0) {
-//     oci_commit($conn);
-// } else {
-//     oci_rollback($conn);
-//     $error_message = "There was a problem fetching the candidates.";
-// }
+if ($candidateCount > 0) {
+    oci_commit($conn);
+} else {
+    oci_rollback($conn);
+    $error_message = "There was a problem fetching the candidates.";
+}
 
-// Hard coded values for testing
-$electorateName = "Sample Electorate";
-$candidates = array(
-    array(
-        "candid" => "1",
-        "candidatename" => "John Doe",
-        "partyname" => "Party A"
-    ),
-    array(
-        "candid" => "2",
-        "candidatename" => "Jane Smith",
-        "partyname" => "Party B"
-    ),
-    array(
-        "candid" => "3",
-        "candidatename" => "Alice Johnson",
-        "partyname" => "Party C"
-    )
-);
-$candidateCount = count($candidates);
+// // Hard coded values for testing
+// $electorateName = "Sample Electorate";
+// $candidates = array(
+//     array(
+//         "candid" => "1",
+//         "candidatename" => "John Doe",
+//         "partyname" => "Party A"
+//     ),
+//     array(
+//         "candid" => "2",
+//         "candidatename" => "Jane Smith",
+//         "partyname" => "Party B"
+//     ),
+//     array(
+//         "candid" => "3",
+//         "candidatename" => "Alice Johnson",
+//         "partyname" => "Party C"
+//     )
+// );
+// $candidateCount = count($candidates);
 
 $pageTitle = "Ballot Paper";
 $subheaderTitle = "House of Representatives Ballot Paper";

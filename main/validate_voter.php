@@ -52,6 +52,9 @@ try {
     if (!$row) {
         throw new Exception('Voter not found!');
     }
+    
+    // Store voter ID in the session
+    $_SESSION['voterID'] = $row['VOTERID'];
 
     $_SESSION['electorateName'] = $electorateName;
     echo "Electoral Name from Session: " . $_SESSION['electorateName']; 
