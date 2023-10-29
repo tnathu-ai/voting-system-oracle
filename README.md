@@ -1,17 +1,17 @@
 ---
-title: "DBA - Assignment 4 - tnathu-ai"
-output: html_document
+Author: "tnathu-ai"
+Technologies: Oracle SQL database and PHP
 ---
 
-# DBA Assignment 4 Repository
+# Australian Electoral Commission (AEC) Computerized Voting System
 
 🔗 Website link: https://titan.csit.rmit.edu.au/~s3879312/DBA/asg4/index.php
 
 🔗 GitHub link: https://github.com/tnathu-ai/voting-system-oracle
 
-Welcome to Australian Electoral Commission (AEC) Computerized Voting System repository! This project is designed for handling the voting process. Dive into the folder structure and file descriptions to get acquainted with the project.
+This project is designed for handling the voting process. Dive into the folder structure and file descriptions to get acquainted with the project.
 
-## 💻 Basic Screen shots
+## 💻 Basic Screen Shots
 
 |<a href="https://titan.csit.rmit.edu.au/~s3879312/DBA/asg4/index.php"><img src="images/index.png" alt="Illustration" width="400px"/></a>|<a href="https://titan.csit.rmit.edu.au/~s3879312/DBA/asg4/ballot_paper.php"><img src="images/ballot_paper.png" alt="Illustration" width="400px"/></a>|<a href="https://titan.csit.rmit.edu.au/~s3879312/DBA/asg4/confirmation.php"><img src="images/confirmation.png" alt="Illustration" width="400px"/></a>|
 |:--:|:--:|:--:|
@@ -19,7 +19,7 @@ Welcome to Australian Electoral Commission (AEC) Computerized Voting System repo
 
 
 <details>
-<summary><b>📩 Detailed Introduction</b></summary>
+<summary><b>📩 Detailed Intro</b></summary>
 <p>
 
 The AEC is dedicated to offering Australians an independent electoral service. While ensuring integrity, accuracy, and transparency, the current manual voting system has its challenges. This project aims to transition to a computerised voting system for federal elections, addressing concerns like time efficiency, resource allocation, and environmental impact.
