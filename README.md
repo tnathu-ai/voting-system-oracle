@@ -48,9 +48,9 @@ Informal Ballots: The database should accommodate both formal and informal ballo
 
 ## Oracle Credentials Setup
 
-|<a href="#"><img src="main/images/oracle_table_UI.png" alt="Relational Design" width="500px"/></a>|<a href="#"><img src="main/images/oracle_UI.png" alt="Logical Design" width="1500px"/></a>|
+|<a href="#"><img src="main/images/oracle_table_UI.png" alt="Relational Design" width="700px"/></a>|<a href="#"><img src="main/images/oracle_UI.png" alt="Logical Design" width="700px"/></a>|
 |:--:|:--:|
-|Relational Design|Logical Design|
+|Oracle Tables|Oracle Connection|
 
 
 To connect to your Oracle database, you need to modify the `db_connection.php` file with your database credentials:
@@ -172,7 +172,7 @@ Use the SQL statements in `insert_as4.sql` to insert the above data. Remember to
 <summary><b>🖋️ ERD Design</b></summary>
 <p>
 
-|<a href="#"><img src="main/images/Relational.png" alt="Relational Design" width="500px"/></a>|<a href="#"><img src="main/images/Logical.png" alt="Logical Design" width="1500px"/></a>|
+|<a href="#"><img src="main/images/Relational.png" alt="Relational Design" width="700px"/></a>|<a href="#"><img src="main/images/Logical.png" alt="Logical Design" width="700px"/></a>|
 |:--:|:--:|
 |Relational Design|Logical Design|
 
@@ -183,7 +183,7 @@ Use the SQL statements in `insert_as4.sql` to insert the above data. Remember to
 <summary><b>🛠️ DDL Script</b></summary>
 <p>
 
-|<a href="#"><img src="main/images/Initial_DDL_code.svg" alt="DDL" width="700px"/></a>|
+|<a href="#"><img src="main/images/Initial_DDL_code.svg" alt="DDL" width="1500px"/></a>|
 |:--:|
 |DDL Script|
 
