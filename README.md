@@ -48,6 +48,11 @@ Informal Ballots: The database should accommodate both formal and informal ballo
 
 ## Oracle Credentials Setup
 
+|<a href="#"><img src="main/images/oracle_table_UI.png" alt="Relational Design" width="500px"/></a>|<a href="#"><img src="main/images/oracle_UI.png" alt="Logical Design" width="1500px"/></a>|
+|:--:|:--:|
+|Relational Design|Logical Design|
+
+
 To connect to your Oracle database, you need to modify the `db_connection.php` file with your database credentials:
 
 1. Open `db_connection.php` in your preferred code editor.
@@ -167,7 +172,7 @@ Use the SQL statements in `insert_as4.sql` to insert the above data. Remember to
 <summary><b>🖋️ ERD Design</b></summary>
 <p>
 
-|<a href="#"><img src="main/main/images/../../images/Relational.png" alt="Relational Design" width="500px"/></a>|<a href="#"><img src="main/images/Logical.png" alt="Logical Design" width="1500px"/></a>|
+|<a href="#"><img src="main/images/Relational.png" alt="Relational Design" width="500px"/></a>|<a href="#"><img src="main/images/Logical.png" alt="Logical Design" width="1500px"/></a>|
 |:--:|:--:|
 |Relational Design|Logical Design|
 
