@@ -48,7 +48,7 @@ Informal Ballots: The database should accommodate both formal and informal ballo
 
 ## Oracle Credentials Setup
 
-|<a href="#"><img src="main/images/oracle_table_UI.png" alt="Relational Design" width="700px"/></a>|<a href="#"><img src="main/images/oracle_UI.png" alt="Logical Design" width="700px"/></a>|
+|<a href="#"><img src="main/images/oracle_table_UI.png" alt="Relational Design" width="500px"/></a>|<a href="#"><img src="main/images/oracle_UI.png" alt="Logical Design" width="1500px"/></a>|
 |:--:|:--:|
 |Oracle Tables|Oracle Connection|
 
